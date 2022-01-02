@@ -57,6 +57,7 @@ void print_mat(int r, int lc, int rc, double* mat){
 
 // Performas gausian elimination and then back substitution
 // by adding the solved rows back to the original rows
+// Somewhere in between gausian and gaus jordan, weird order.
 // 1 2 =  1
 // 2 3 =  1
 // ----------------------
